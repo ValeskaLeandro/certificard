@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
+body {
+    background: linear-gradient(200deg, #b7f7ff 25%, #fde5c0 75%);
+    font-family: 'Quicksand', sans-serif;    
+    
+}
+
+.container {
+    background: #ECF4FF;
+    box-shadow: 6px 6px 6px #3991a7;
+    border-radius: 20px;
+    margin: 60px;
+    color: #1c1c1c;
+    padding: 60px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.perfil {
+    display: flex;
+    
+}
+
+.perfil img {
+    border-radius: 460px;
+    max-height: 180px;
+    box-shadow: 0px 4px 4px rgba(85, 215, 255, 0.705);
+}
+.titulo {
+    margin-left: 15px;
+}
+.titulo h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.titulo h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.titulo a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(131, 131, 131);
+    margin-top: 0;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.titulo a:hover {
+    transition: .5s;
+    color: #c9ac81; 
+}
+
+.tema button {
+    
+    align-self: flex-end;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #1c1c1c;
+    background: transparent;
+    cursor: pointer;
+}
+.tema button:hover{
+    transition: .5s;
+    color: #a18a68;
+    border: solid 2px #a18a68;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #fde5c0c4;
+    padding: 30px 60px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #80bac28a;
+}
+
+.projeto-titulo {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.projeto-item {
+    list-style-type: none;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 28px;
+}
+.projeto-item a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.projetos li a:hover {
+    transform: scale(1.1);
+    color: #7a7a7a;
+}
+
+/*Class Dark*/
+
+.dark .container {
+    background: #333439;
+    color:white;
+}
+
+.dark .perfil img {
+    border-radius: 460px;
+    max-height: 180px;
+    box-shadow: 0px 4px 4px rgba(17, 48, 58, 0.705);
+}
+
+.dark .projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #fde5c0dc;
+    padding: 30px 60px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #80bac28a;
+    color: #1c1c1c;
+}
+.dark .tema button {
+    color: rgb(85, 215, 255);
+    border: solid 2px rgb(85, 215, 255);
+}
+
+.dark .tema button:hover{
+    transition: .5s;
+    color: rgb(42, 137, 167);
+    border: solid 2px rgb(42, 137, 167);
+}
